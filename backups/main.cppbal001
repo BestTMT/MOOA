@@ -1,0 +1,28 @@
+#include <iostream>
+#include <libInterpolate/Interpolate.hpp>
+#include <vector>
+
+using namespace std;
+
+
+int main(int, char**){
+    std::cout << "Hello, from analogsizing!\n";
+
+    vector<double> x,y;
+    
+    x.push_back(1);
+    x.push_back(2);
+    x.push_back(3);
+
+    y.push_back(1);
+    y.push_back(1);
+    y.push_back(3);
+
+    // Use a cubic spline interpolator to interpolate the data
+    _1D::LinearInterpolator<double> interp;
+    interp.setData(x,y);
+
+    double val = interp(1.5);
+
+    std::cout << "Hello, from analogsizing!\n";
+}

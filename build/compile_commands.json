@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/simulator",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dsimulator_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include  -O0 -Wall -Wextra -Wpedantic           -Wformat=2 -Wno-unused-parameter -Wshadow           -Wwrite-strings -Wstrict-prototypes -Wold-style-definition           -Wredundant-decls -Wnested-externs -Wmissing-include-dirs -g -ggdb -fPIC -o CMakeFiles/simulator_library.dir/Simulator.cpp.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/simulator/Simulator.cpp",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/simulator/Simulator.cpp"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/simulator",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dsimulator_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include  -O0 -Wall -Wextra -Wpedantic           -Wformat=2 -Wno-unused-parameter -Wshadow           -Wwrite-strings -Wstrict-prototypes -Wold-style-definition           -Wredundant-decls -Wnested-externs -Wmissing-include-dirs -g -ggdb -fPIC -o CMakeFiles/simulator_library.dir/SimulatorWrapper.cpp.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/simulator/SimulatorWrapper.cpp",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/simulator/SimulatorWrapper.cpp"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/allocate.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/allocate.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/allocate.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/auxiliary.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/auxiliary.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/auxiliary.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/crossover.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/crossover.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/crossover.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/decode.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/decode.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/decode.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/display.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/display.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/display.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/dominance.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/dominance.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/dominance.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/eval.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/eval.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/eval.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/fillnds.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/fillnds.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/fillnds.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/initialize.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/initialize.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/initialize.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/list.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/list.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/list.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/merge.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/merge.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/merge.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/metrics.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/metrics.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/metrics.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/mutation.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/mutation.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/mutation.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/nsga2r.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/nsga2r.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/nsga2r.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/problemdef.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/problemdef.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/problemdef.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/rand.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/rand.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/rand.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/rank.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/rank.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/rank.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/referencepoints.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/referencepoints.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/referencepoints.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/report.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/report.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/report.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/selection.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/selection.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/selection.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/sort.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/sort.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/sort.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga",
+  "command": "/usr/bin/gcc -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -Dnsga_library_EXPORTS -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include -g -fPIC -o CMakeFiles/nsga_library.dir/tourselect.c.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/tourselect.c",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_nsga/tourselect.c"
+},
+{
+  "directory": "/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_demo",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -I/home/asus/Desktop/cplusplushub/cmakeSizing/module_demo/include -isystem /home/asus/Desktop/cplusplushub/dependency/include -isystem /home/asus/anaconda3/include  -O0 -Wall -Wextra -Wpedantic           -Wformat=2 -Wno-unused-parameter -Wshadow           -Wwrite-strings -Wstrict-prototypes -Wold-style-definition           -Wredundant-decls -Wnested-externs -Wmissing-include-dirs -g -ggdb -o CMakeFiles/analogsizing.dir/main.cpp.o -c /home/asus/Desktop/cplusplushub/cmakeSizing/module_demo/main.cpp",
+  "file": "/home/asus/Desktop/cplusplushub/cmakeSizing/module_demo/main.cpp"
+}
+]

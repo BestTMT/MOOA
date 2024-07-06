@@ -1,0 +1,26 @@
+#include "NumCpp.hpp"
+ 
+#include <cstdlib>
+#include <iostream>
+ 
+int main()
+{
+
+    //numcpp interagetion completed.
+    //then next plan is to
+    //
+
+    auto a = nc::random::randInt<int>({10, 10}, 0, 100);
+
+    nc::NdArray<double> x = {2.5};
+    nc::NdArray<double> fr = {1,2,3,4,5,6,7};
+    nc::NdArray<double> fr_real    = { 0.038, 0.194, 0.425, 0.626, 1.253, 2.5, 3.74 };
+    nc::NdArray<double> fr_image = { 0.05, 0.127, 0.094, 0.2122, 0.2729, 0.2665, 0.3317 };
+    
+    auto fr_response = nc::complex (fr_real, fr_image);
+
+    auto res = nc::interp(x, fr, fr_real);
+
+    std::cout<< "Test" << std::endl;
+    return EXIT_SUCCESS;
+}

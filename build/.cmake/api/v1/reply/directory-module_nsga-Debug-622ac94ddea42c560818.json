@@ -1,0 +1,89 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"module_nsga/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/cmakeSizing/build/bin",
+			"paths" : 
+			[
+				"module_nsga/real_front"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/dependency/lib",
+			"paths" : 
+			[
+				"module_nsga/libnsga_library.so"
+			],
+			"targetId" : "nsga_library::@7855bb547b81ba8b3667",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/dependency/lib",
+			"paths" : 
+			[
+				"module_nsga/include/nsga2r.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/dependency/include",
+			"paths" : 
+			[
+				"module_nsga/include/global.h",
+				"module_nsga/include/nsga2r.h",
+				"module_nsga/include/rand.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "module_nsga",
+		"source" : "module_nsga"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"simulator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/dependency/lib",
+			"paths" : 
+			[
+				"simulator/libsimulator_library.so"
+			],
+			"targetId" : "simulator_library::@f1f3e991e10b5af6b966",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/dependency/lib",
+			"paths" : 
+			[
+				"simulator/include/simulator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/asus/Desktop/cplusplushub/dependency/include",
+			"paths" : 
+			[
+				"simulator/include/Simulator.h",
+				"simulator/include/SimulatorWrapper.h",
+				"simulator/include/io_utils.h",
+				"simulator/include/sharedspice.h",
+				"simulator/include/sharedspice_xspice.h",
+				"simulator/include/sim_types.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "simulator",
+		"source" : "simulator"
+	}
+}

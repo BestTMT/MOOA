@@ -1,0 +1,171 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/analogsizing"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"module_demo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O0 -Wall -Wextra -Wpedantic           -Wformat=2 -Wno-unused-parameter -Wshadow           -Wwrite-strings -Wstrict-prototypes -Wold-style-definition           -Wredundant-decls -Wnested-externs -Wmissing-include-dirs -g -ggdb"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/asus/Desktop/cplusplushub/cmakeSizing/module_demo/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/asus/Desktop/cplusplushub/dependency/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/asus/anaconda3/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "simulator_library::@f1f3e991e10b5af6b966"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "nsga_library::@7855bb547b81ba8b3667"
+		}
+	],
+	"id" : "analogsizing::@06b49b8d1e867a50bd36",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O0 -Wall -Wextra -Wpedantic           -Wformat=2 -Wno-unused-parameter -Wshadow           -Wwrite-strings -Wstrict-prototypes -Wold-style-definition           -Wredundant-decls -Wnested-externs -Wmissing-include-dirs -g -ggdb",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/asus/Desktop/cplusplushub/cmakeSizing/lib:/home/asus/Desktop/cplusplushub/cmakeSizing/build/module_nsga:/home/asus/Desktop/cplusplushub/cmakeSizing/build/simulator:/home/asus/anaconda3/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../lib/libngspice.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../module_nsga/libnsga_library.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../simulator/libsimulator_library.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/asus/anaconda3/lib/libboost_date_time.so.1.73.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../lib/libngspice.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "analogsizing",
+	"nameOnDisk" : "analogsizing",
+	"paths" : 
+	{
+		"build" : "module_demo",
+		"source" : "module_demo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "module_demo/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
